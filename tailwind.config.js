@@ -16,7 +16,7 @@ module.exports = {
       minHeight: {
         '1/2': '50vh',
       },
-      minWidth: {
+      width: {
         '1/2': '50vw',
       },
       backgroundImage: {

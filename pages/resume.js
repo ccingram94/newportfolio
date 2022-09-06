@@ -17,7 +17,7 @@ export default function Resume() {
           <h2 className="text-md lg:text-lg italic"> last updated September 5, 2022</h2>
           <p className="p-2">❦</p>
           <div className="flex flex-col justify-center items-center">
-            <iframe className="w-screen min-h-1/2" src="https://drive.google.com/file/d/1qbx2Ar6QulfK7lV9TRxg2kjfBXQzIQqE/preview" allow="autoplay"></iframe>
+            <iframe className="w-screen lg:w-1/2 min-h-1/2" src="https://drive.google.com/file/d/1qbx2Ar6QulfK7lV9TRxg2kjfBXQzIQqE/preview" allow="autoplay"></iframe>
           </div>
         </div>
       </main>
