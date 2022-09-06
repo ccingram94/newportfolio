@@ -16,10 +16,6 @@ export default function Header() {
         <Link href="/portfolio">
             <button className="p-2">Portfolio</button>
         </Link>
-        <p className="p-4 text-xs">❦</p>
-        <Link href="/contact">
-            <button className="p-2">Contact</button>
-        </Link>
     </div>
   )
 }
