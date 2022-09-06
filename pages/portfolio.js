@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import Header from '../components/header'
 
-export default function Home() {
+export default function Portfolio() {
   return (
     <div>
       <Head>
@@ -18,10 +17,7 @@ export default function Home() {
           <h2 className="text-md lg:text-lg"> Denver, Colorado (Remote)</h2>
           <p className="text-sm lg:text-md">UT Austin 2015 </p>
           <p className="p-2">❦</p>
-          <Link href='/portfolio'>
-            <button className="bg-black text-white text-lg lg:text-2xl max-w-sm p-4 m-2 rounded-md italic">Portfolio</button>
-          </Link>
-          
+          <button className="bg-black text-white text-lg lg:text-2xl max-w-sm p-4 m-2 rounded-md italic">Portfolio</button>
         </div>
       </main>
     </div>

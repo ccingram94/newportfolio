@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import Header from '../components/header'
 
-export default function Home() {
+export default function Resume() {
   return (
     <div>
       <Head>
@@ -14,14 +13,12 @@ export default function Home() {
       <Header />
       <main className="min-h-screen bg-bg1 bg-cover bg-right lg:bg-bottom font-fell">
         <div className="min-h-screen bg-black bg-opacity-70 text-white flex flex-col justify-center text-center items-center">
-          <h1 className="font-fell-sc italic text-lg lg:text-4xl p-2">Constance Ingram </h1>
-          <h2 className="text-md lg:text-lg"> Denver, Colorado (Remote)</h2>
-          <p className="text-sm lg:text-md">UT Austin 2015 </p>
+          <h1 className="font-fell-sc italic text-lg lg:text-4xl p-2">Resume</h1>
+          <h2 className="text-md lg:text-lg italic"> last updated September 5, 2022</h2>
           <p className="p-2">❦</p>
-          <Link href='/portfolio'>
-            <button className="bg-black text-white text-lg lg:text-2xl max-w-sm p-4 m-2 rounded-md italic">Portfolio</button>
-          </Link>
-          
+          <div className="flex flex-col justify-center items-center">
+            <iframe className="w-screen min-h-1/2" src="https://drive.google.com/file/d/1qbx2Ar6QulfK7lV9TRxg2kjfBXQzIQqE/preview" allow="autoplay"></iframe>
+          </div>
         </div>
       </main>
     </div>
